@@ -10,6 +10,6 @@ default_lang: "en"
 
 twitter_username: hackcommitpush
 github_username:
-github_url: https://github.com/hack-commit-push/hack-commit-push.github.io
+github_url: https://github.com/hack-commit-push
 # Build settings
 markdown: kramdown
