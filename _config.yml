@@ -11,5 +11,6 @@ default_lang: "en"
 twitter_username: hackcommitpush
 github_username:
 github_url: https://github.com/hack-commit-push
+youtube_channel: https://www.youtube.com/channel/UCMTI7EciSV3AF_g_NjvMg0A
 # Build settings
 markdown: kramdown
