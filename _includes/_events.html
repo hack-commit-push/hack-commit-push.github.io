@@ -10,10 +10,15 @@
 	<div class="grid_item col-xs-12 col-sm-4">
 			{% endif %}
 		{% endif %}
-		<a href="{{event.url}}" rel="noopener" target="_blank">
-			<p class="wow bounceIn name">{{event.name}}</p>
-			<p class="short_desc">{{event.short_desc}}</span></p>
-		</a>
+		<div class="event">
+			{% if event.url != nil %}
+			<a href="{{event.url}}" rel="noopener" target="_blank">
+			{% endif %}
+			<span class="wow bounceIn name">{{event.name}}</span>
+			{% if event.url != nil %}
+			</a>
+			{% endif %}
+		</div>
 	</div>
 	{% endfor %}
 </div>
