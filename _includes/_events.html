@@ -14,7 +14,10 @@
 			{% if event.url != nil %}
 			<a href="{{event.url}}" rel="noopener" target="_blank">
 			{% endif %}
-			<span class="wow bounceIn name">{{event.name}}</span>
+			{% if event.img != nil %}
+			<img src="img/{{event.img}}" alt="{{event.name}} website thumbnail" />
+			{% endif %}
+			<div>{{event.name}}</div>
 			{% if event.url != nil %}
 			</a>
 			{% endif %}

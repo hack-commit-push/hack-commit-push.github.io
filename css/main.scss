@@ -211,17 +211,26 @@ header .header-content {
 	}
 
 	.event {
-		height: 10vh;
-		width: 10vh;
-		&, a {
-			margin: 0 auto;
-			display: flex;
-			justify-content: center;
-			align-items: center;
+		display: inline-flex;
+		max-width: 100%;
+
+		img {
+			max-width: 100%;
 		}
-		.name {
-			margin-bottom: 0;
-		}	
+
+		div {
+			display:none;
+			padding: 2%;
+			font-size: 1.5em;
+		}
+	}
+
+	a:hover > div {
+		display: inline-block;
+		position: absolute;
+		left: 50%;
+		top: 20%;
+		transform: translate(-50%,-50%);
 	}
 }
 
