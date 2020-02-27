@@ -1,4 +1,4 @@
 #!/bin/bash
 set -Eeuo pipefail
-jekyll serve
+jekyll serve --host 0.0.0.0
 
