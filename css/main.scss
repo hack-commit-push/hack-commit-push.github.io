@@ -239,6 +239,10 @@ header .header-content {
 	.event {
 		background-color: $theme-primary;
 	}
+
+	.no-events a {
+		text-decoration: underline;
+	}
 }
 
 #past {

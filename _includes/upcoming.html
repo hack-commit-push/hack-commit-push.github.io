@@ -6,7 +6,13 @@
 					<h2 class="section-heading">Upcoming events</h2>
 					<hr class="light">
 				</div>
+                {% if site.data.events.upcoming.size == 0 %}
+                <div class="grid_item col-12 no-events">
+                    <p>Follow our <a rel="noopener" target="_blank" class="page-scroll" href="https://twitter.com/{{site.twitter_username}}">Twitter account</a> to stay in touch!</p>
+                </div>
+                {% else %}
 				{% include _events.html events=site.data.events.upcoming %}
+                {% endif %}
             </div>
         </div>
     </div>
