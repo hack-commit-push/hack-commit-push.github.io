@@ -1,4 +1,7 @@
-upcoming: []
+upcoming:
+  - name: Paris 2021
+    url: https://paris2021.hack-commit-pu.sh/
+    img: hcp-paris-2021.png
 past:
   - name: Paris 2020
     url: https://paris2020.hack-commit-pu.sh/
