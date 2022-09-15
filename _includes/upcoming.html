@@ -11,7 +11,9 @@
                     <p>Follow our <a rel="noopener" target="_blank" class="page-scroll" href="https://twitter.com/{{site.twitter_username}}">Twitter account</a> to stay in touch!</p>
                 </div>
                 {% else %}
-				{% include _events.html events=site.data.events.upcoming %}
+                {% assign now = 'now' | date: '%s' | to_integer %}
+                {% assign upcoming_events = site.data.events | where_exp:"event", "event.end_timestamp_millis >= now" %}
+                {% include _events.html events=upcoming_events %}
                 {% endif %}
             </div>
         </div>
