@@ -6,7 +6,9 @@
 					<h2 class="section-heading">Past events</h2>
 					<hr class="light">
 				</div>
-				{% include _events.html events=site.data.events.past %}
+                {% assign now = 'now' | date: '%s' | to_integer %}
+                {% assign past_events = site.data.events | where_exp:"event", "event.end_timestamp_millis < now" %}
+                {% include _events.html events=past_events %}
             </div>
         </div>
     </div>

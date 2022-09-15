@@ -1,11 +1,15 @@
-upcoming:
-past:
-  - name: Paris 2021
-    url: https://paris2021.hack-commit-pu.sh/
-    img: hcp-paris-2021.png
-  - name: Paris 2020
-    url: https://paris2020.hack-commit-pu.sh/
-    img: hcp-paris-2020.png
-  - name: Paris 2019
-    url: https://paris2019.hack-commit-pu.sh/
-    img: hcp-paris-2019.png
+- name: Paris 2021
+  url: https://paris2021.hack-commit-pu.sh/
+  img: hcp-paris-2021.png
+  # 2021-05-29 19:00:00+0200
+  end_timestamp_millis: 1622307600
+- name: Paris 2020
+  url: https://paris2020.hack-commit-pu.sh/
+  img: hcp-paris-2020.png
+  # 2020-06-27 19:00:00+0200
+  end_timestamp_millis: 1593277200
+- name: Paris 2019
+  url: https://paris2019.hack-commit-pu.sh/
+  img: hcp-paris-2019.png
+  # 2019-06-15 19:00:00+0200
+  end_timestamp_millis: 1560618000
