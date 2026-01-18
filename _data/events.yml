@@ -1,3 +1,8 @@
+- name: Wintertur 2026
+  url: https://winterthur2026.hack-commit-pu.sh/
+  img: hcp-switzerland-2024.png
+  # 2026-06-05 19:00:00+0100
+  end_timestamp_millis: 1780678800
 - name: Switzerland 2025
   url: https://switzerland2025.hack-commit-pu.sh/
   img: hcp-switzerland-2024.png
